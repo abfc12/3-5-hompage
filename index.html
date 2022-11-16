@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>main page</title>
+        <style>
+            #grid1 {
+                border-right: 1px solid black;
+                height: 830px;
+                padding:  70px;
+                margin: 0px;
+            }
+            p {
+                position: absolute;
+                left: 40%;
+                top: 17%;
+            }
+            li {
+                list-style: none;
+            }
+            #grid3 {
+                text-decoration: none;
+                color: black;
+                font-size: 30px;
+            }
+            #grid {
+                display: grid;
+                grid-template-columns: 1fr 2.5fr;
+            }
+            body {
+                margin: 0px;
+            }
+            h1 {
+                border-bottom: 1px black solid;
+                margin: 0px;
+                padding: 20px;
+                text-align: center;
+                font-size: 70px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            3-5 홈페이지
+        </h1>
+        <div id="grid">
+            <ul id="grid1">
+                <li>
+                    <a href="index.html" id="grid3">1. 메인 페이지</a>
+                </li>
+                <li>
+                    <a href="subject.html" id="grid3">2. 3-5 과목 확인</a>
+                </li>
+            </ul>
+            <div id="grid2">
+                <div id="grid3">
+                    <p>
+                        1. 11월22일~11월24일 기말고사 예정
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
